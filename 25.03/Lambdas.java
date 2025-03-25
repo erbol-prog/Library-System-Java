@@ -47,7 +47,6 @@ public class LambdaExercises {
             }
             return reversed;
         };
-
         List<String> words = Arrays.asList("hello", "java", "lambbda");
         List<String> transformed = new ArrayList<>();
         for(String word : words) {
